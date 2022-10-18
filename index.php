@@ -24,8 +24,8 @@
 </head>
 <body>
     <main>
-        <form action="conexao1.php" method="POST">
-            <label for="nome">Nome</label>
+        <form action="./includes/createContact.php" method="POST">
+            <label for="name">Nome</label>
             <input type="text" name= "nome" required/>
             <label for="email">E-mail</label>
             <input type="email" nome= "email" required/>

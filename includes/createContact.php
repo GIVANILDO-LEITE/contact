@@ -1,10 +1,10 @@
 <?php
 
-require_once("./conexao1.php")
+require_once("./includes/conexao1.php")
 
 
 
-function test_input($data){
+function  test_input($data) {
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
